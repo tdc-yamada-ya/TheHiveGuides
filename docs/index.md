@@ -5,6 +5,6 @@
 オープンソースかつ無料のセキュリティインシデントレスポンスプラットフォームです。
 
 * [TheHiveでできること](./features)
-* [TheHiveのインストール](./installation/install-guide)
+* [TheHiveのインストール](./install)
 * [TLPについて](./tlp)
 * [PAPについて](./pap)
