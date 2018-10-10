@@ -3,7 +3,8 @@
 この説明は [Installation Guide](https://github.com/TheHive-Project/TheHiveDocs/blob/master/installation/install-guide.md#docker)
 を元にしています。
 
-TheHive は複数のサービスを連携させて動作することを前提としているため、Docker Composeを使うことで簡単にインストールできます。
+TheHive は複数のサービスを連携させて動作することを前提としていますが、
+Docker Composeを使うことで簡単にインストールできます。
 
 前提条件として以下の仮想環境を用意してください。VirtualBox でも AWS でも Azure でも構いません。
 
