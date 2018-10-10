@@ -4,6 +4,7 @@
 [TheHive Project](https://thehive-project.org/)のもとで開発されている、
 オープンソースかつ無料のセキュリティインシデントレスポンスプラットフォームです。
 
+* [TheHiveでできること](./features)
 * [TheHiveのインストール](./installation/install-guide)
 * [TLPについて](./tlp)
 * [PAPについて](./pap)

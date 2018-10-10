@@ -9,10 +9,11 @@ TheHive は複数のサービスを連携させて動作することを前提と
 Docker Composeを使うことで簡単にインストールできます。
 
 前提条件として以下の仮想環境を用意してください。VirtualBox でも AWS でも Azure でも構いません。
+推奨する前提条件は TheHive の[ドキュメント](https://github.com/TheHive-Project/TheHiveDocs)を参考にしています。
 
 * Ubuntu 16.04
-* RAM 4GB 以上
-* Disk 10GB 以上
+* RAM 4GB 以上 (8GB 以上を推奨)
+* Disk 10GB 以上 (60GB 以上を推奨)
 * TCP 9000, TCP 9001 にアクセスできること
 
 ### Azure 仮想マシンを使用する場合の注意点
