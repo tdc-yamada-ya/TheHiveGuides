@@ -6,3 +6,4 @@
 
 * [TheHiveのインストール](./installation/install-guide)
 * [TLPについて](./tlp)
+* [PAPについて](./pap)
