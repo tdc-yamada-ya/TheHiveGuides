@@ -5,3 +5,4 @@
 オープンソースかつ無料のセキュリティインシデントレスポンスプラットフォームです。
 
 * [TheHiveのインストール](./installation/install-guide)
+* [TLPについて](./tlp)
