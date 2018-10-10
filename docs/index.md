@@ -4,7 +4,8 @@
 [TheHive Project](https://thehive-project.org/)のもとで開発されている、
 オープンソースかつ無料のセキュリティインシデントレスポンスプラットフォームです。
 
-* [TheHiveでできること](./features)
-* [TheHiveのインストール](./install)
+* [TheHive と Cortex ができること](./features)
+* [TheHive と Cortex のインストール](./install)
 * [TLPについて](./tlp)
 * [PAPについて](./pap)
+* [IOCについて](./ioc)
