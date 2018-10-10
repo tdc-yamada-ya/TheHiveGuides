@@ -2,6 +2,7 @@
 
 この説明は [Installation Guide](https://github.com/TheHive-Project/TheHiveDocs/blob/master/installation/install-guide.md#docker)
 を元にしています。
+もし需要があればインストール全体を自動化するスクリプトを Vagrant + Ansible で記述するつもりです。
 
 TheHive は複数のサービスを連携させて動作することを前提としていますが、
 Docker Composeを使うことで簡単にインストールできます。
