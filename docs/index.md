@@ -4,4 +4,4 @@
 [TheHive Project](https://thehive-project.org/)のもとで開発されている、
 オープンソースかつ無料のセキュリティインシデントレスポンスプラットフォームです。
 
-* [TheHiveのインストール](./install)
+* [TheHiveのインストール](./installation/install-guide)
