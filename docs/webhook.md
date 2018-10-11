@@ -62,5 +62,5 @@ sudo docker-compose logs -f webhook
 基本的なデータであるケース (Cases)、タスク (Tasks)、観測データ (Observables) の登録、更新から始まり、
 ユーザの登録、更新に至る非常に多くのオブジェクトの変更に対応しているようです。
 
-例えば観測データ (Observable) のアナライザー実行 (Run analyzers) が完了した瞬間に、
+例えば観測データ (Observables) のアナライザー実行 (Run analyzers) が完了した瞬間に、
 その結果 (Report) の内容に応じて別のアナライザーを API 呼び出しによって起動する、といった制御を行うことも可能です。
