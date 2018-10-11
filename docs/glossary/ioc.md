@@ -1,4 +1,4 @@
-# IOCについて
+# 用語 IOC
 
 IOC は Indicator of Compromise の略称です。
 これはコンピュータへの不正侵入の痕跡のことを指します。

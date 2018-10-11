@@ -1,4 +1,4 @@
-# TLP について
+# 用語 TLP
 
 TLP とは Traffic Light Protocol の略称です。
 TLP について日本語で整理された良い情報源が見当たらないため、

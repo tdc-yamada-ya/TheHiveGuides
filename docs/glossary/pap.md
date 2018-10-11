@@ -1,4 +1,4 @@
-# PAP について
+# 用語 PAP
 
 PAP とは Permissible Actions Protocol の略称です。
 PAP はマルウェア情報共有プラットフォームである [MISP](https://github.com/MISP/MISP) にて

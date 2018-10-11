@@ -7,7 +7,10 @@
 * [TheHive と Cortex ができること](./features) (執筆中)
 * [TheHive と Cortex のインストール](./install)
 * [TheHive の Webhook によるデータ更新に連動した処理の実行](webhook.md)
-* [TLPについて](./tlp)
-* [PAPについて](./pap)
-* [IOCについて](./ioc)
 * 日本語化について (執筆前)
+
+## 用語集
+
+* [TLP](./glossary/tlp)
+* [PAP](./glossary/pap)
+* [IOC](./glossary/ioc)
