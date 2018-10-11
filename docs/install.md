@@ -16,16 +16,6 @@ Docker Composeを使うことで簡単にインストールできます。
 * Disk 10GB 以上 (60GB 以上を推奨)
 * TCP 9000, TCP 9001 にアクセスできること
 
-### Docker Compose のサンプル
-
-Docker Compose で配備するためのサンプルファイル郡を
-[リポジトリに配置](https://github.com/tdc-yamada-ya/TheHiveGuides/tree/master/samples/docker)していますので参考にしてください。
-
-このサンプルには以下のテスト用の機能が含まれています。
-
-* TheHive の WebHook の追加設定
-* TheHive の WebHook のテスト用 Node.js アプリケーション
-
 ### Azure 仮想マシンを使用する場合の注意点
 
 もし Azure を使用する場合はスワップが無効になっているため有効化します。
@@ -111,6 +101,14 @@ volumes:
 ```
 
 なお `--cortex-key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` には Cortex で作成する API キーを後で設定します。
+
+Docker Compose で配備するためのサンプルファイル郡を
+[リポジトリに配置](https://github.com/tdc-yamada-ya/TheHiveGuides/tree/master/samples/docker)していますので参考にしてください。
+
+なお、このサンプルには基本構成の他に以下のテスト用の機能が含まれています。
+
+* TheHive の WebHook の追加設定
+* TheHive の WebHook のテスト用 Node.js アプリケーション
 
 ### Cortex を起動
 
