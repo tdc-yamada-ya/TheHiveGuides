@@ -59,7 +59,7 @@ sudo docker-compose logs -f webhook
 ## Webhook に対応するイベント
 
 公式のドキュメントには記載がありませんが、
-基本的なデータであるケース (Cases)、タスク (Tasks)、観測データ (Observable) の登録、更新から始まり、
+基本的なデータであるケース (Cases)、タスク (Tasks)、観測データ (Observables) の登録、更新から始まり、
 ユーザの登録、更新に至る非常に多くのオブジェクトの変更に対応しているようです。
 
 例えば観測データ (Observable) のアナライザー実行 (Run analyzers) が完了した瞬間に、
