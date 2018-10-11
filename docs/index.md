@@ -6,8 +6,8 @@
 
 * [TheHive と Cortex ができること](./features) (執筆中)
 * [TheHive と Cortex のインストール](./install)
-* [TheHive の Webhook によるデータ更新に連動した処理の実行](webhook.md)
-* 日本語化について (執筆前)
+* [TheHive の Webhook によるデータ更新に連動した処理の実行](./webhook)
+* [日本語化について](./translate-into-japanese)
 
 ## 用語集
 
