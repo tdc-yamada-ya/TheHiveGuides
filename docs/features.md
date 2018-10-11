@@ -24,7 +24,7 @@ TheHive の主要機能はセキュリティインシデントのケース管理
     * 初期登録されるタスク (Task)
     * メトリクス (Metrics)
     * カスタムフィールド (Custom fields)
-* 2018-10-10 現在、ケース一覧テーブルにカスタムフィールドの列を表示したり、カスタムフィールドで検索することが[できません](https://github.com/TheHive-Project/TheHive/issues/377)
+* TheHive 3.11.1 の時点ではケース一覧テーブルにカスタムフィールドの列を表示したり、カスタムフィールドで検索することが[できません](https://github.com/TheHive-Project/TheHive/issues/377)
 
 ## アナリストが行うべきこと (Tasks) を定義し、作業のログ (Task logs) を残す
 
