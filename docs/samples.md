@@ -18,10 +18,12 @@
 Docker および Docker Compose のインストール、Elasticsearch 用の設定が完了したら、
 以下の手順を実行してサンプルを実行してください。
 
+まずは Cortex サービスを単独で起動します。
+
 ```bash
 git clone https://github.com/tdc-yamada-ya/TheHiveGuides.git
 cd samples/docker
-sudo docker-compose up -d cortex webhook
+sudo docker-compose up -d cortex
 ```
 
 インストールガイドにあるとおり、Cortex で API キーを生成して docker-compose.yml に設定します。
@@ -36,6 +38,13 @@ TheHive の起動後、各種設定が完了したら、作成した管理用ユ
 
 ### WebHook テスト用サンプルの動作確認
 
+以下のコマンドを実行して WebHook テスト用のサービスを起動してください。
+このサービスはシンプルな Node.js Web アプリケーションで、受け付けたリクエストをコンソールログに出力するだけのプログラムです。
+
+```bash
+sudo docker-compose up -d webhook
+```
+
 TheHive から任意の内容のケース (Cases) を登録した後、以下のコマンドを実行して、
 webhook サービスのログを確認してください。
 
@@ -47,7 +56,7 @@ sudo docker-compose logs -f webhook
 
 ### API テスト用サンプルの動作確認
 
-さらに以下のコマンドを実行して TheHive API テスト用アプリケーションを実行してください。
+以下のコマンドを実行して TheHive API テスト用アプリケーションを実行してください。
 
 ```bash
 sudo docker-compose up client
