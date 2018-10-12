@@ -2,6 +2,7 @@ const axios = require('axios')
 
 const DEFAULT_TIMEOUT = 10000
 const CASE_URI = '/api/case'
+const ALERT_URI = '/api/alert'
 
 class TheHiveClient {
   constructor (config) {
@@ -36,6 +37,11 @@ class TheHiveClient {
 
   async createCase (data) {
     const response = await this.callAPI('post', CASE_URI, data)
+    return response.data
+  }
+
+  async createAlert (data) {
+    const response = await this.callAPI('post', ALERT_URI, data)
     return response.data
   }
 }
