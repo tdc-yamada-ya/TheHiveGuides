@@ -1,6 +1,7 @@
 # サンプルコード
 
-このリポジトリには TheHive および Cortex のインストールや、機能拡張の参考となるサンプルコードを登録しています。
+[このリポジトリ](https://github.com/tdc-yamada-ya/TheHiveGuides)
+には TheHive および Cortex のインストールや、機能拡張の参考となるサンプルコードを登録しています。
 
 ## 基本的なサンプルコード
 
