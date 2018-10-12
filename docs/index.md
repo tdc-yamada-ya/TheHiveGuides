@@ -12,7 +12,6 @@
 * [サンプルコード](./samples)
 * [API による自動化](./api)
 * [TheHive の Webhook によるデータ更新に連動した処理の実行](./webhook)
-* [MISP に接続して脅威情報共有する](./misp) (執筆中)
 * [日本語化に対応していない件ついて](./translate-into-japanese)
 
 ## 用語集
