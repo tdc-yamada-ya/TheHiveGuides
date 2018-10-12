@@ -1,8 +1,11 @@
 このサイトはTheHiveとCortexの非公式のガイドです。
 
-[TheHive](https://github.com/TheHive-Project/TheHive)と[Cortex](https://github.com/TheHive-Project/Cortex)は
-[TheHive Project](https://thehive-project.org/)のもとで開発されている、
+[TheHive](https://github.com/TheHive-Project/TheHive) と
+[Cortex](https://github.com/TheHive-Project/Cortex) は
+[TheHive Project](https://thehive-project.org/) のもとで開発されている、
 オープンソースかつ無料のセキュリティインシデントレスポンスプラットフォームです。
+
+より正確な情報は [TheHive の公式ドキュメント](https://github.com/TheHive-Project/TheHiveDocs) を参照してください。
 
 * [TheHive と Cortex ができること](./features) (執筆中)
 * [TheHive と Cortex のインストール](./install)
