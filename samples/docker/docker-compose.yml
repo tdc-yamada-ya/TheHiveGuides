@@ -36,6 +36,17 @@ services:
     volumes:
       - ./containers/thehive/conf/application.conf:/etc/thehive/application.conf
     restart: always
+  client:
+    image: node:8.12.0-alpine
+    user: node
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+      - THEHIVE_URL=http://thehive:9000
+      - THEHIVE_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    volumes:
+      - ./containers/client/app:/home/node/app
+    command: sh -c "npm install && npm run start"
   webhook:
     image: node:8.12.0-alpine
     user: node
