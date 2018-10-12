@@ -110,8 +110,8 @@ Docker Compose で配備するためのサンプルファイル郡を
 なお、このサンプルには基本構成の他に以下のテスト用の機能が含まれています。
 
 * TheHive の WebHook の追加設定
-* TheHive の WebHook のテスト用 Node.js アプリケーション
-* TheHive の API のテスト用 Node.js アプリケーション
+* TheHive の WebHook のテスト用 Node.js アプリケーション (containers/webhook/app)
+* TheHive の API のテスト用 Node.js アプリケーション (containers/client/app)
 
 ### Cortex を起動
 
