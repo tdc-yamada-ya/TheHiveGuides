@@ -102,6 +102,8 @@ volumes:
 
 なお `--cortex-key XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` には Cortex で作成する API キーを後で設定します。
 
+### Docker Compose のサンプルコード
+
 Docker Compose で配備するためのサンプルファイル郡を
 [リポジトリに配置](https://github.com/tdc-yamada-ya/TheHiveGuides/tree/master/samples/docker)していますので参考にしてください。
 
@@ -109,6 +111,7 @@ Docker Compose で配備するためのサンプルファイル郡を
 
 * TheHive の WebHook の追加設定
 * TheHive の WebHook のテスト用 Node.js アプリケーション
+* TheHive の API のテスト用 Node.js アプリケーション
 
 ### Cortex を起動
 
