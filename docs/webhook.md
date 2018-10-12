@@ -23,38 +23,9 @@ Webhook の設定のサンプルは次のテスト用サンプルに含まれて
 
 ## Webhook テスト用のサンプル
 
-TheHiveから呼ばれる Webhook リクエストの内容がどのようになっているか確認するための
-[サンプル](https://github.com/tdc-yamada-ya/TheHiveGuides/tree/master/samples/docker) を用意しています。
+TheHiveから呼ばれる Webhook リクエストの内容がどのようになっているか確認するためのサンプルを用意しています。
 
-サンプルは Docker Compose 用に作られています。
-webhook サービスは TheHive からの Webhook リクエストを待ちうけ、リクエストボディをコンソールログに出力するだけの、
-単純な Node.js アプリケーションです。
-
-[インストールガイド](./install.md) に記載した前提条件の仮想環境を新たに用意し、
-Docker および Docker Compose のインストール、Elasticsearch 用の設定が完了したら、
-以下の手順を実行してサンプルを実行してください。
-
-```bash
-git clone https://github.com/tdc-yamada-ya/TheHiveGuides.git
-cd samples/docker
-sudo docker-compose up -d cortex webhook
-```
-
-インストールガイドにあるとおり、Cortex で API キーを生成して docker-compose.yml に設定します。
-続けて TheHive を起動します。
-
-```bash
-sudo docker-compose up -d thehive
-```
-
-TheHive の起動、各種設定が完了したら試しに任意の内容のケースを登録した後、以下のコマンドを実行して、
-webhook サービスのログを確認してください。
-
-```bash
-sudo docker-compose logs -f webhook
-```
-
-作成されたケースの内容がログに出力されていれば Webhook による連携は成功です。
+[サンプルコード](./samples) のページ内の「基本的なサンプルコード」を参照してください。
 
 ## Webhook に対応するイベント
 

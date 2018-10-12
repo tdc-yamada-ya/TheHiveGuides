@@ -6,6 +6,8 @@
 
 * [TheHive と Cortex ができること](./features) (執筆中)
 * [TheHive と Cortex のインストール](./install)
+* [サンプルコード](./samples)
+* [API による自動化](./api)
 * [TheHive の Webhook によるデータ更新に連動した処理の実行](./webhook)
 * [日本語化について](./translate-into-japanese)
 
