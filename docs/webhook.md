@@ -17,7 +17,7 @@ Webhook 用 Web アプリケーションの実装は次のテスト用サンプ�
 
 ## Webhook の設定
 
-TheHive 3.11.1 においては、Webhook を設定するには設定ファイル (/etc/thehive/application.conf) の書き換えが必要です。
+TheHive 3.11.1 において、Webhook を登録するには設定ファイル (/etc/thehive/application.conf) の書き換えが必要です。
 
 Webhook の設定のサンプルは次のテスト用サンプルに含まれています。
 
