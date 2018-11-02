@@ -7,7 +7,7 @@
 
 より正確な情報は [TheHive の公式ドキュメント](https://github.com/TheHive-Project/TheHiveDocs) を参照してください。
 
-* [TheHive と Cortex ができること](./features) (執筆中)
+* [TheHive と Cortex ができること](./features)
 * [TheHive と Cortex のインストール](./install)
 * [サンプルコード](./samples)
 * [API による自動化](./api)
