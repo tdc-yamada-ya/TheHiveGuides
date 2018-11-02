@@ -26,14 +26,6 @@ TheHive の主要機能はセキュリティインシデントのケース管理
     * カスタムフィールド (Custom fields)
 * TheHive 3.11.1 の時点ではケース一覧テーブルにカスタムフィールドの列を表示したり、カスタムフィールドで検索することが[できません](https://github.com/TheHive-Project/TheHive/issues/377)
 
-## アナリストが行うべきこと (Tasks) を定義し、作業のログ (Task logs) を残す
-
-(執筆中)
-
-## ケースに紐付けた観測データ (Observables) を Cortex に登録したアナライザで解析する
-
-(執筆中)
-
 ## API で自動化する
 
 TheHive および Cortex は REST API を提供しており、外部プログラムから様々なデータを登録することができます。
